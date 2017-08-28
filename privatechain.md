@@ -46,3 +46,5 @@ To verify the peer execute
 ```
 admin.peers
 ```
+
+Proceed to Deploy smart contacts on the network by following smartcontract.md (https://github.com/santhosh-ktec/blockchain/blob/master/smartcontract.md).
