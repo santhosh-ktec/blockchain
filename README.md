@@ -37,4 +37,4 @@ sudo chmod 777 ./
 git clone https://github.com/santhosh-ktec/blockchain.git
 ```
 
-##### proceed to firstnode.md(https://github.com/santhosh-ktec/blockchain/blob/master/firstnode.md) to setup the first node of the blockchain.
+##### proceed to setup the first node of the blockchain by following firstnode.md (https://github.com/santhosh-ktec/blockchain/blob/master/firstnode.md).

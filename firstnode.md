@@ -4,7 +4,7 @@
 
 ###### switch the path to project working directory
 ```
-cd /var/geth/blockchain
+cd /var/smartwallet/blockchain
 ```
 
 
@@ -21,10 +21,10 @@ Address: {5379f3a527a74406ce4d48c833eade757063176b}
 
 ### Config the genesis.json file
 
-Modify the genesis.json file with the address generated above to alloc section
+Modify the genesis.json file with the address generated above to alloc section (prefix the address with 0x. )
 ```
 "alloc": {
-		"5379f3a527a74406ce4d48c833eade757063176b": { "balance": "1606938044258990275541962092341162602522202993782792835301376" }
+		"0x5379f3a527a74406ce4d48c833eade757063176b": { "balance": "1606938044258990275541962092341162602522202993782792835301376" }
    	},
 ```
 
@@ -39,4 +39,4 @@ geth --datadir ./data init genesis.json
 geth --datadir ./data --networkid 87623 --nodiscover --mine --minerthreads=1 console 2>>get.log
 ```
 
-###### Now our first blockchain node is setup and ready. Proceed to setup private chain by following privatechain.md
+###### Now our first blockchain node is setup and ready. Proceed to setup private chain by following privatechain.md (https://github.com/santhosh-ktec/blockchain/blob/master/privatenetwork.md)
