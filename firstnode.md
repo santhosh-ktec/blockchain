@@ -39,4 +39,4 @@ geth --datadir ./data init genesis.json
 geth --datadir ./data --networkid 87623 --nodiscover --mine --minerthreads=1 console 2>>get.log
 ```
 
-###### Now our first blockchain node is setup and ready. Proceed to setup private chain by following privatechain.md (https://github.com/santhosh-ktec/blockchain/blob/master/privatenetwork.md)
+###### Now our first blockchain node is setup and ready. Proceed to setup private chain by following privatechain.md (https://github.com/santhosh-ktec/blockchain/blob/master/privatechain.md)
