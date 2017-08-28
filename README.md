@@ -1,9 +1,9 @@
-# Blockchain network using GoEthernium (geth)
+# Blockchain network using GoEthereum (geth)
 
 ## Installation / Project Setup
 
 
-### Install Ethernium (geth)
+### Install Ethereum (geth)
 
 ```
 sudo apt-get install software-properties-common

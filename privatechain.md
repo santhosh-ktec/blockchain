@@ -1,4 +1,4 @@
-# Private Blockchain network using GoEthernium (geth)
+# Private Blockchain network using GoEthereum (geth)
 
 ## Creating the first node on blockchain
 
