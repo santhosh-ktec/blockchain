@@ -1,1 +1,1 @@
-### This directory will contain the data of blockchain
+### This directory will contain the data of blockchain and keystore
