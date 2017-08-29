@@ -16,7 +16,7 @@ It will prompt for a passphrase, enter it to project lock your account.
 
 Once generated it will display an address of your account. eg. 
 ``` 
-Address: {5379f3a527a74406ce4d48c833eade757063176b} 
+Address: {7ec0ec3f734781c84edf4e1a353dfc8bd4218c4e} 
 ```
 
 ### Config the genesis.json file
@@ -24,7 +24,7 @@ Address: {5379f3a527a74406ce4d48c833eade757063176b}
 Modify the genesis.json file with the address generated above to alloc section (prefix the address with 0x. )
 ```
 "alloc": {
-		"0x5379f3a527a74406ce4d48c833eade757063176b": { "balance": "1606938044258990275541962092341162602522202993782792835301376" }
+		"0x7ec0ec3f734781c84edf4e1a353dfc8bd4218c4e": { "balance": "1606938044258990275541962092341162602522202993782792835301376" }
    	},
 ```
 
