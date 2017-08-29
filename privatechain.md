@@ -38,7 +38,8 @@ In console of the next node to be setup execute below line to add the firstnode 
 ```
 admin.addPeer("<enode url>")
 ```
-######  Add will not succeed if the system times are not in sync or the nodes 30330x port displayed in enode url is not reachable due to firewall.
+######  Add will not succeed if the system times are not in sync or the nodes port displayed in enode url is not reachable due to firewall.
+* To Update clock use ```sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"```
 
 ### Verify peer
 
